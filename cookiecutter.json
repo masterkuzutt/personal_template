@@ -1,0 +1,12 @@
+{
+    "github_username": "masterkuzutt",
+    "project_name": "Simple Python Template",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "Simple Python Template contains ",
+    "pypi_username": "{{ cookiecutter.github_username }}",
+    "version": "0.1.0",
+    "_use_pytest": "n",
+    "_use_pypi_deployment_with_travis": "y",
+    "_create_author_file": "y",
+    "_open_source_license": ["MIT", "BSD", "ISCL", "Apache Software License 2.0", "Not open source"]
+}

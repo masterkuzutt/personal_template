@@ -3,10 +3,14 @@ from . import helpers
 
 def get_hmm():
     """Get a thought."""
-    return 'hmmm...'
+    return 'hmmm..iii.'
 
 
 def hmm():
     """Contemplation..."""
     if helpers.get_answer():
         print(get_hmm())
+
+
+
+
